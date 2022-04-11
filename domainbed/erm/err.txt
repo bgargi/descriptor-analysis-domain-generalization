@@ -1,0 +1,102 @@
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 102, in <module>
+    raise NotImplementedError
+NotImplementedError
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 102, in <module>
+    raise NotImplementedError
+NotImplementedError
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 102, in <module>
+    raise NotImplementedError
+NotImplementedError
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 238, in __init__
+    self.dir = os.path.join(root, "domain_net/")
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 238, in __init__
+    self.dir = os.path.join(root, "domain_net/")
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 182, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: './domainbed/data/DomainNet/domain_net/'
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 175, in <module>
+    algorithm_class = algorithms.get_algorithm_class(args.algorithm)
+  File "/home/gargi/domainbed/DomainBed/domainbed/algorithms.py", line 56, in get_algorithm_class
+    raise NotImplementedError("Algorithm not found: {}".format(algorithm_name))
+NotImplementedError: Algorithm not found: GrouDRO
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 162, in <module>
+    eval_loaders = [FastDataLoader(
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 162, in <listcomp>
+    eval_loaders = [FastDataLoader(
+  File "/home/gargi/domainbed/DomainBed/domainbed/lib/fast_data_loader.py", line 60, in __init__
+    self._infinite_iterator = iter(torch.utils.data.DataLoader(
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 368, in __iter__
+    return self._get_iterator()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 314, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 965, in __init__
+    self._reset(loader, first_iter=True)
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 996, in _reset
+    self._try_put_index()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1241, in _try_put_index
+    self._index_queues[worker_queue_idx].put((self._send_idx, index))
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/multiprocessing/queues.py", line 94, in put
+    self._start_thread()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/multiprocessing/queues.py", line 179, in _start_thread
+    self._thread.start()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/threading.py", line 897, in start
+    self._started.wait()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt

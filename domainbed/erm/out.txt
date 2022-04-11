@@ -1,0 +1,471 @@
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: IRM
+	checkpoint_freq: None
+	data_dir: ./domainbed/data/DomainNet/
+	dataset: DomainNetç
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	irm_lambda: 100.0
+	irm_penalty_anneal_iters: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 102, in <module>
+    raise NotImplementedError
+NotImplementedError
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: IRM
+	checkpoint_freq: None
+	data_dir: ./domainbed/data/DomainNet/
+	dataset: DomainNet\
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	irm_lambda: 100.0
+	irm_penalty_anneal_iters: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 102, in <module>
+    raise NotImplementedError
+NotImplementedError
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: IRM
+	checkpoint_freq: None
+	data_dir: None
+	dataset: DomainNet\
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	irm_lambda: 100.0
+	irm_penalty_anneal_iters: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 102, in <module>
+    raise NotImplementedError
+NotImplementedError
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: IRM
+	checkpoint_freq: None
+	data_dir: None
+	dataset: DomainNet
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	irm_lambda: 100.0
+	irm_penalty_anneal_iters: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 238, in __init__
+    self.dir = os.path.join(root, "domain_net/")
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: IRM
+	checkpoint_freq: None
+	data_dir: None
+	dataset: DomainNet
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	irm_lambda: 100.0
+	irm_penalty_anneal_iters: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 238, in __init__
+    self.dir = os.path.join(root, "domain_net/")
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: IRM
+	checkpoint_freq: None
+	data_dir: ./domainbed/data/DomainNet/
+	dataset: DomainNet
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	irm_lambda: 100.0
+	irm_penalty_anneal_iters: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "/home/gargi/domainbed/DomainBed/domainbed/datasets.py", line 182, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: './domainbed/data/DomainNet/domain_net/'
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: IRM
+	checkpoint_freq: None
+	data_dir: ./domainbed/data/
+	dataset: DomainNet
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	irm_lambda: 100.0
+	irm_penalty_anneal_iters: 500
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+env0_in_acc   env0_out_acc  env1_in_acc   env1_out_acc  env2_in_acc   env2_out_acc  env3_in_acc   env3_out_acc  env4_in_acc   env4_out_acc  env5_in_acc   env5_out_acc  epoch         loss          mem_gb        nll           penalty       step          step_time    
+0.0035840432  0.0045714286  0.0026644705  0.0033911443  0.0043242869  0.0051200443  0.0030144928  0.0029275362  0.0040041053  0.0037584203  0.0034898649  0.0031103074  0.0000000000  5.9730596542  13.129221439  5.9460196495  0.0270398110  0             1.2608692646 
+0.0353469769  0.0349090909  0.0255304719  0.0221877725  0.0412191030  0.0390230402  0.0181666667  0.0170434783  0.0439801096  0.0441469831  0.0367068694  0.0377576854  0.8310824849  5.5107189548  13.397634029  5.0894664052  0.0154215480  1000          0.4245805488 
+0.0150893414  0.0138181818  0.0116267804  0.0121112295  0.0099458599  0.0095481907  0.0135362319  0.0139130435  0.0143396117  0.0145711064  0.0133808292  0.0133815552  1.6621649699  5.8251122532  13.397634029  5.7255420761  0.0009957018  2000          0.4332667816 
+0.0187772699  0.0198441558  0.0179730646  0.0159868230  0.0098074827  0.0096865703  0.0144710145  0.0157391304  0.0182353026  0.0189655671  0.0198000108  0.0180831826  2.4932474548  5.8208136430  13.397634029  5.7607586117  0.0006005503  3000          0.4198846354 
+0.0138427176  0.0169350649  0.0153570390  0.0144365856  0.0074723678  0.0080952051  0.0108260870  0.0117391304  0.0088972087  0.0090491197  0.0130915140  0.0115732369  3.3243299397  5.7945226595  13.397634029  5.7594462914  0.0003507636  4000          0.4230913985 
+0.0175566175  0.0179740260  0.0119658948  0.0117236702  0.0120388148  0.0108627967  0.0130652174  0.0121739130  0.0153081137  0.0142241753  0.0207041209  0.0211934901  4.1554124247  5.8083222935  13.397634029  5.7812908778  0.0002703141  5000          0.4212010202 
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: ERM
+	checkpoint_freq: None
+	data_dir: ./domainbed/data/
+	dataset: DomainNet
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+env0_in_acc   env0_out_acc  env1_in_acc   env1_out_acc  env2_in_acc   env2_out_acc  env3_in_acc   env3_out_acc  env4_in_acc   env4_out_acc  env5_in_acc   env5_out_acc  epoch         loss          mem_gb        step          step_time    
+0.0034022439  0.0044675325  0.0024949133  0.0031004748  0.0043242869  0.0050508545  0.0028985507  0.0027826087  0.0040113329  0.0037295094  0.0035441115  0.0031103074  0.0000000000  5.9460196495  13.129010677  0             1.3072228432 
+0.4296956160  0.4243116883  0.2661079353  0.2518166844  0.4769688478  0.4652321317  0.3591159420  0.3594782609  0.5757455297  0.5657289890  0.4773701246  0.4606871609  0.8310824849  3.4421772256  13.397423267  1000          0.4694867475 
+0.5120766674  0.5106493506  0.3237089429  0.2866970255  0.5574870704  0.5358749049  0.4494275362  0.4422028986  0.6503563220  0.6412732372  0.5602046905  0.5234719711  1.6621649699  2.3743613892  13.397423267  2000          0.4680662456 
+0.5514751714  0.5545974026  0.3629008817  0.3049123147  0.5978413160  0.5588459143  0.5065797101  0.4943478261  0.6794836583  0.6656162364  0.6043975915  0.5594213382  2.4932474548  2.1143528725  13.397423267  3000          0.4450062158 
+0.5729794307  0.5703896104  0.3903933727  0.3192520105  0.6120076799  0.5690860029  0.5324347826  0.5133043478  0.6957530464  0.6782503108  0.6235104786  0.5756962025  3.3243299397  1.9429834660  13.397423267  4000          0.4831814547 
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: GrouDRO
+	checkpoint_freq: None
+	data_dir: ./domainbed/data/
+	dataset: DomainNet
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 175, in <module>
+    algorithm_class = algorithms.get_algorithm_class(args.algorithm)
+  File "/home/gargi/domainbed/DomainBed/domainbed/algorithms.py", line 56, in get_algorithm_class
+    raise NotImplementedError("Algorithm not found: {}".format(algorithm_name))
+NotImplementedError: Algorithm not found: GrouDRO
+Environment:
+	Python: 3.9.7
+	PyTorch: 1.11.0
+	Torchvision: 0.12.0
+	CUDA: 11.3
+	CUDNN: 8200
+	NumPy: 1.19.3
+	PIL: 8.4.0
+Args:
+	algorithm: GroupDRO
+	checkpoint_freq: None
+	data_dir: ./domainbed/data/
+	dataset: DomainNet
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: train_output
+	save_model_every_checkpoint: False
+	seed: 0
+	skip_model_save: False
+	steps: None
+	task: domain_generalization
+	test_envs: [0]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: True
+	groupdro_eta: 0.01
+	lr: 5e-05
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.0
+	weight_decay: 0.0
+Traceback (most recent call last):
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 162, in <module>
+    eval_loaders = [FastDataLoader(
+  File "/home/gargi/domainbed/DomainBed/domainbed/scripts/train.py", line 162, in <listcomp>
+    eval_loaders = [FastDataLoader(
+  File "/home/gargi/domainbed/DomainBed/domainbed/lib/fast_data_loader.py", line 60, in __init__
+    self._infinite_iterator = iter(torch.utils.data.DataLoader(
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 368, in __iter__
+    return self._get_iterator()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 314, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 965, in __init__
+    self._reset(loader, first_iter=True)
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 996, in _reset
+    self._try_put_index()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1241, in _try_put_index
+    self._index_queues[worker_queue_idx].put((self._send_idx, index))
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/multiprocessing/queues.py", line 94, in put
+    self._start_thread()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/multiprocessing/queues.py", line 179, in _start_thread
+    self._thread.start()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/threading.py", line 897, in start
+    self._started.wait()
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/gargi/anaconda3/envs/mutualinfo/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt
+0.5793424060  0.5798441558  0.4120724736  0.3275845364  0.6440592946  0.5921262022  0.5548478261  0.5376231884  0.7131788549  0.6887738877  0.6491872050  0.5874864376  4.1554124247  1.8279450920  13.397423267  5000          0.4786412628 
