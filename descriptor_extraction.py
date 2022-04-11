@@ -1,5 +1,12 @@
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 
+
+# python3 descriptor_extraction.py --data_dir=./domainbed/data/ --output_dir=./domainbed/ermnew/ --algorithm ERM --dataset DomainNet
+# python3 descriptor_extraction.py --data_dir=./domainbed/data/ --output_dir=./domainbed/ermnew/ --algorithm Mixup --dataset DomainNet
+
+
+
+
 import argparse
 import collections
 import json
@@ -10,7 +17,6 @@ import time
 import uuid
 
 import numpy as np
-import PIL
 import torch
 import torchvision
 import torch.utils.data
@@ -67,7 +73,6 @@ if __name__ == "__main__":
     print("\tCUDA: {}".format(torch.version.cuda))
     print("\tCUDNN: {}".format(torch.backends.cudnn.version()))
     print("\tNumPy: {}".format(np.__version__))
-    print("\tPIL: {}".format(PIL.__version__))
 
     print('Args:')
     for k, v in sorted(vars(args).items()):
@@ -180,7 +185,7 @@ if __name__ == "__main__":
     #### - Make sure to change for algo specific parameters below as shown in comments
 
     # Change to "erm/model.." for ERM model 
-    PATH = "./domainbed/mixup/model.pkl"
+    PATH = "./domainbed/erm/model.pkl"
     model_sample = algorithm
     model_sample = model_sample.to(device)
     model_sample.load_state_dict(torch.load(PATH)['model_dict'])
@@ -196,6 +201,6 @@ if __name__ == "__main__":
         print(descs.shape)
         print(descs[0])
         # Change to erm/descs.... for ERM
-        torch.save(descs, "./domainbed/extracted/mixup/descs_"+name+".pt")
+        torch.save(descs, "./domainbed/erm/descs_"+name+".pt")
 
   
