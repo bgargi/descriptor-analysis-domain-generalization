@@ -6,6 +6,12 @@ Currently, 2 algorithms have been included:
 * Empirical Risk Minimization (ERM, [Vapnik, 1998](https://www.wiley.com/en-fr/Statistical+Learning+Theory-p-9780471030034))
 * Interdomain Mixup (Mixup, [Yan et al., 2020](https://arxiv.org/abs/2001.00677))
 
+In the final version, we add more:
+
+* Domain Adversarial Neural Network (DANN, [Ganin et al., 2015](https://arxiv.org/abs/1505.07818))
+* Group Distributionally Robust Optimization (GroupDRO, [Sagawa et al., 2020](https://arxiv.org/abs/1911.08731))
+
+
 The dataset being used currently is:
 
 * DomainNet ([Peng et al., 2019](http://ai.bu.edu/M3SDA/))
