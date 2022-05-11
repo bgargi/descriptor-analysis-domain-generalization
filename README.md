@@ -16,6 +16,10 @@ The dataset being used currently is:
 
 * DomainNet ([Peng et al., 2019](http://ai.bu.edu/M3SDA/))
 
+In the final version, we use:
+* PACS ([Li et al., 2017](https://arxiv.org/abs/1710.03077))
+
+
 - Checkout `commands.sh` on how to train and generate descriptors. 
 - Requirements for pip can be found inside `requirements.txt`
 
